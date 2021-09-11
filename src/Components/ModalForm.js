@@ -20,7 +20,6 @@ const ModalForm = () => {
         <div>
             <Formik initialValues={{
                 ...INITIAL_FORM_STATE}}
-                validationSchema:
                 >
                 <Form>
 

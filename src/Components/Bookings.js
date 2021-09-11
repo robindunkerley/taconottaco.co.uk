@@ -1,3 +1,4 @@
+//Components
 import React, {useState} from 'react';
 import Modal from 'react-modal';
 import Button1 from './Button'
@@ -10,13 +11,12 @@ import Input from './Input';
 import Textarea from './Textarea';
 import emailjs from "emailjs-com";
 
-
-
 //Imported Images
 import Van from '../images/VanTop.jpg';
 import closeIcon from '../images/closeIcon.png';
 
-import '../style.css';
+//CSS
+import '../CSS/bookingStyle.css'
 
 Modal.setAppElement('#root');
 emailjs.init('user_nFMNVSW7vSQXsqOOoX8so');

@@ -6,6 +6,9 @@ import { Button } from '@material-ui/core';
 import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import IconButton from '@material-ui/core/IconButton';
 
+//CSS
+import '../CSS/headerStyle.css';
+
 
 const Header = () => {
     return (

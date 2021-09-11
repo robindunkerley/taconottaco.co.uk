@@ -7,12 +7,12 @@ import {Helmet} from "react-helmet";
 import Header from './Components/Header';
 import Carousel from './Components/Carousel';
 import Bookings from './Components/Bookings';
-import Block from './Components/Description';
-import BlockFactory from './Components/BlockFactory';
+import Description from './Components/Description';
 
 //import css
 import './style.css';
-import './flickity.css';
+import './CSS/mediaQueries.css';
+
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </Helmet>
       <Header />
       <Carousel />
-      <BlockFactory />
+      <Description />
       <Bookings />
     </div>
   );
